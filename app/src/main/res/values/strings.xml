@@ -3,9 +3,11 @@
     <string name="action_settings">Settings</string>
     <string name="txEncomendas">Encomendas</string>
 
-
-    <string name="auth0.name">Movery.Android</string>
-    <string name="auth0.domain">movery.auth0.com</string>
-    <string name="auth0.clientId">164o7h4TbX1VfwnKxv5sIj3Zuf5GlxvV</string>
-    <string name="auth0.clientSecret">8vHRx78Fzi2m_OdCLBaguFXLgCaKN0miLudmJTbqC2Bm6KJ8G_FuTs98M6tExHve</string>
+    <string name="com_auth0_name">Movery.Android</string>
+    <string name="com_auth0_domain">movery.auth0.com</string>
+    <string name="com_auth0_client_id">164o7h4TbX1VfwnKxv5sIj3Zuf5GlxvV</string>
+    <string name="com_auth0_client_secret">8vHRx78Fzi2m_OdCLBaguFXLgCaKN0miLudmJTbqC2Bm6KJ8G_FuTs98M6tExHve</string>
+    <string name="password_hint">Digite sua Senha</string>
+    <string name="email_hint">Digite seu E-mail</string>
+    <string name="sign_in_hint">Entrar</string>
 </resources>
