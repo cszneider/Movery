@@ -7,4 +7,6 @@
     <string name="com_auth0_domain">movery.auth0.com</string>
     <string name="com_auth0_client_id">164o7h4TbX1VfwnKxv5sIj3Zuf5GlxvV</string>
     <string name="com_auth0_client_secret">8vHRx78Fzi2m_OdCLBaguFXLgCaKN0miLudmJTbqC2Bm6KJ8G_FuTs98M6tExHve</string>
+    <string name="password_hint">Digite sua Senha</string>
+    <string name="email_hint">Digite seu E-mail</string>
 </resources>
