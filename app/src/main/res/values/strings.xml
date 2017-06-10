@@ -9,4 +9,5 @@
     <string name="com_auth0_client_secret">8vHRx78Fzi2m_OdCLBaguFXLgCaKN0miLudmJTbqC2Bm6KJ8G_FuTs98M6tExHve</string>
     <string name="password_hint">Digite sua Senha</string>
     <string name="email_hint">Digite seu E-mail</string>
+    <string name="sign_in_hint">Entrar</string>
 </resources>

@@ -21,7 +21,7 @@ public class AuthenticationService {
     authentication = new AuthenticationAPIClient(account);
   }
 
-  public void login(String name, String password) {
+  public void signIn(String name, String password) {
     authentication.login(name, password)
       .start(new BaseCallback<Credentials, AuthenticationException>() {
         @Override
