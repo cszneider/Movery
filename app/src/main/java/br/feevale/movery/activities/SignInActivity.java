@@ -1,5 +1,6 @@
 package br.feevale.movery.activities;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -18,6 +19,7 @@ public class SignInActivity extends BaseActivity {
     @BindView(R.id.txtEmail) TextView txtEmail;
     @BindView(R.id.txtPassword) TextView txtPassword;
     @BindView(R.id.btnSignIn) Button btnSignIn;
+    @BindView(R.id.txtSignUp) TextView txtSignUp;
 
     private AuthenticationService authenticationService;
 
@@ -59,9 +61,21 @@ public class SignInActivity extends BaseActivity {
                 }
             }
         });
+
+        txtSignUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                signUp();
+            }
+        });
     }
 
     private void signIn(String email, String password) {
         authenticationService.signIn(email, password);
+    }
+
+    private void signUp() {
+        Intent intent = new Intent(this, SignUpActivity.class);
+        startActivity(intent);
     }
 }
