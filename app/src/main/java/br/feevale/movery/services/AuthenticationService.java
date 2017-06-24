@@ -26,7 +26,8 @@ public class AuthenticationService {
       .start(new BaseCallback<Credentials, AuthenticationException>() {
         @Override
         public void onSuccess(Credentials payload) {
-
+            int asfd = 0;
+            asfd ++;
         }
 
         @Override
