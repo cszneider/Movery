@@ -8,9 +8,10 @@
     android:orientation="vertical">
 
     <LinearLayout
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_weight="1">
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
@@ -42,4 +43,14 @@
             android:layout_height="wrap_content"
             android:hint="@string/sign_in_hint"/>
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/minimum_click_area"
+        android:text="@string/txt_sign_up"
+        android:textSize="@dimen/regular_font"
+        android:textAlignment="center"
+        android:gravity="bottom"/>
 </LinearLayout>

@@ -14,4 +14,5 @@
     <string name="name_hint">Nome</string>
     <string name="phone_hint">Telefone</string>
     <string name="sign_up_hint">Cadastrar</string>
+    <string name="txt_sign_up">Junte-se ao Movery!</string>
 </resources>
