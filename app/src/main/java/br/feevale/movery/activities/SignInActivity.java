@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import br.feevale.movery.R;
+import br.feevale.movery.activities.async.CallbackActivity;
 import br.feevale.movery.services.AuthenticationService;
 import br.feevale.movery.utils.Constants;
 import br.feevale.movery.utils.Validate;
@@ -19,7 +20,7 @@ public class SignInActivity extends BaseActivity {
     @BindView(R.id.txtEmail) TextView txtEmail;
     @BindView(R.id.txtPassword) TextView txtPassword;
     @BindView(R.id.btnSignIn) Button btnSignIn;
-    @BindView(R.id.txtSignUp) TextView txtSignUp;
+    @BindView(R.id.lblSignUp) TextView lblSignUp;
 
     private AuthenticationService authenticationService;
 
@@ -62,7 +63,7 @@ public class SignInActivity extends BaseActivity {
             }
         });
 
-        txtSignUp.setOnClickListener(new View.OnClickListener() {
+        lblSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 signUp();

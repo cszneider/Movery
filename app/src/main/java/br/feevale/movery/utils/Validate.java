@@ -19,6 +19,14 @@ public class Validate {
         return !empty(widget);
     }
 
+    public static boolean name(TextView widget) {
+        return !empty(widget);
+    }
+
+    public static boolean phone(TextView widget) {
+        return !empty(widget);
+    }
+
     private static boolean empty(TextView widget) {
         return widget.getText().toString().isEmpty();
     }
