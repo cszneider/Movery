@@ -1,0 +1,49 @@
+<resources>
+    <string name="config" >Configurações</string>
+    <string name="st_app_name">Movery</string>
+    <string name="st_encomendas">Encomendas</string>
+    <string name="st_novaEncomenda">Nova Encomenda</string>
+    <string-array name="array_paises">
+        <item>Argentina</item>
+        <item>Brasil</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Cuba</item>
+        <item>Espanha</item>
+        <item>Estados Unidos</item>
+        <item>França</item>
+        <item>Grecia</item>
+        <item>Holanda</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Israel</item>
+        <item>Italia</item>
+        <item>Jamaica</item>
+        <item>Japão</item>
+        <item>Mexico</item>
+        <item>Marrocos</item>
+        <item>Nigeria</item>
+        <item>Paraguai</item>
+        <item>Peru</item>
+        <item>Portugal</item>
+        <item>Russia</item>
+        <item>Senegal</item>
+        <item>Suecia</item>
+        <item>Turquia</item>
+        <item>Uruguai</item>
+
+    </string-array>
+    <string name="title_activity_endereco">activity_endereco</string>
+    <string name="title_activity_entrega">activity_entrega</string>
+
+
+    <string-array name="array_pagamento">
+        <item>Boleto</item>
+        <item>Cartão</item>
+        <item>Débito</item>
+
+
+    </string-array>
+</resources>
+
