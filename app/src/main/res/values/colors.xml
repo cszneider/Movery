@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#368C72</color>
+    <!-- <color name="colorPrimary">#368C72</color>
     <color name="colorPrimaryDark">#466551</color>
-    <color name="colorAccent">#7ECBA1</color>
+    <color name="colorAccent">#7ECBA1</color> 
+	Commented out older values in favor of the new ones -->
+	<color name="colorPrimary">#5F9EA0</color>
+    <color name="colorPrimaryDark">#66CDAA</color>
+    <color name="colorAccent">#fff</color>
+    <color name="corPrincipal">#5F9EA0</color>
+    <color name="disable_forground_grey">#42221f1f</color>
+    <color name="disable_thumb_grey">#1c000000</color>
+    <color name="enable_thumb_green">#46bdbf</color>
 </resources>
