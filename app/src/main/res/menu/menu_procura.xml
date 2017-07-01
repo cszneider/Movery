@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menuProcura"
+        android:title="Procura"
+        android:icon="@android:drawable/ic_menu_search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"
+        ></item>
+    <item
+        android:id="@+id/menuConfiguracao"
+        android:orderInCategory="1"
+        android:title="@string/config"
+
+        android:icon="@mipmap/im_configuracao"
+        app:showAsAction="" />
+    <item android:id="@+id/teste"
+        android:orderInCategory="2"
+        android:title="Teste"
+        app:showAsAction="never" />
+
+</menu>
